@@ -1,8 +1,8 @@
-[meta title:"My Blog Index" description:"Short description of your project" /]
+[meta title:"HCI Group 25" description:"Short description of your project" /]
 
 [Header
   fullWidth:true
-  title:"My Blog Index"
+  title:"HCI Group 25"
   subtitle:"Welcome to Idyll. Open index.idyll to start writing"
   author:"Your Name Here"
   authorLink:"https://idyll-lang.org"
