@@ -3,9 +3,9 @@
 [Header
   fullWidth:true
   title:"HCI Group 25"
-  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
-  author:"Your Name Here"
-  authorLink:"https://idyll-lang.org"
+  subtitle:"Classfind Redesign"
+  author:"Arnav Mehrotra, Dylan Christian, Xiaoyuan Sang, Lina Lee"
+  authorLink:"https://github.com/uwohci23/Group25"
   date:`(new Date()).toDateString()`
   background:"#222222"
   color:"#ffffff"
