@@ -1,1 +1,0 @@
-# linadyl.github.io
