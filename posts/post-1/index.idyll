@@ -4,7 +4,7 @@
   fullWidth:true
   title:"Post 1"
   subtitle:"Classfind Redesign"
-  author:"Your Name Here"
+  author:"Arnav Mehrotra, Dylan Christian, Xiaoyuan Sang, Lina Lee"
   authorLink:"https://idyll-lang.org"
   date:`(new Date()).toDateString()`
   background:"#222222"
