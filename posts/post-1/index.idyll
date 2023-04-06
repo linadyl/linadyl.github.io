@@ -3,7 +3,7 @@
 [Header
   fullWidth:true
   title:"Post 1"
-  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
+  subtitle:"Classfind Redesign"
   author:"Your Name Here"
   authorLink:"https://idyll-lang.org"
   date:`(new Date()).toDateString()`
