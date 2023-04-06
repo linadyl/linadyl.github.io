@@ -5,7 +5,7 @@
   title:"Post 2"
   subtitle:". Open index.idyll to start writing"
   author:"Arnav Mehrotra, Dylan Christian, Xiaoyuan Sang, Lina Lee"
-  authorLink:"https://idyll-lang.org"
+  authorLink:"https://github.com/uwohci23/Group25"
   date:`(new Date()).toDateString()`
   background:"#222222"
   color:"#ffffff"
