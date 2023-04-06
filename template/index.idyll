@@ -2,7 +2,7 @@
 
 [Header
   fullWidth:true
-  title:"{{title}}"
+  title:"HCI Group 25"
   subtitle:"Welcome to Idyll. Open index.idyll to start writing"
   author:"Your Name Here"
   authorLink:"https://idyll-lang.org"
