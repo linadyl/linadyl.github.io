@@ -11,106 +11,40 @@
   color:"#ffffff"
    /]
 
-## Introduction
+# Heuristic Evaluation
 
-This is an Idyll post. It is generated via
-the file `index.idyll`. To compile this post using
-idyll, run the command `idyll` inside of this directory.
+As the observer, the team took notes as the evaluator comments on the system of the website during the evaluation process. Throughout the evaluation, the team followed the general principles listed below to guide their analysis and assessment of the system’s usability. 
 
+## Design
 
-Idyll posts are designed to support interaction and
-data-driven graphics.
+#### *For processes where the user can interact with the system in ways that may not work, how is the visibility of the system status maintained?*
+The login system provides clear feedback to the user, indicating their login attempt was successful or unsuccessful. This high level of visibility ensures that users can always access their personal information they need and receive prompt feedback on their login attempts. 
 
-[var name:"state" value:0 /]
-[CustomD3Component className:"d3-component" state:state /]
-[button onClick:`state++`]
-  Click Me.
-[/button]
+#### *What matches exist between the system and the real world?*
+Our System makes use of the user’s language and metaphors as opposed to system-oriented language. Our interactable titles are all common English words that instantly convey what will be in each tab.
 
-Configuration can be done via the `idyll` field in `package.json`.
+## Learning
 
-## Markup
+#### *In what ways are user control and freedom incorporated?*
+Our system supports “undo” by having a clickable link on every webpage that will return users to the page they accessed it from. The “redo” feature is pseudo implemented as well by allowing users to return to the previous page, from which they can go ‘forward’ to the page they just came ‘back’ from.
 
-Idyll is based on Markdown.
+#### *How is consistency maintained throughout the system?*
+Our Re-design maintains a consistent design across all pages, accomplished through the use of the same header and footer as well as consistent design principles regarding the layout of each page. There are no special/new controls on any individual page, and we consistently used the same representations for clickable words.
 
-You can use familiar syntax
-to create **bold** (`**bold**` ) and *italic* (``*italic*` ) styles,
+#### *How are first time users walked through using your site for the first time?*
+When users access the login page who have yet to create an account with the Western Classfind website, they will notice a side note that outlines the password creation requirements within the system. This provides users with a general idea of how to create a password that meets the necessary criteria, including requirements such as using at least one special character, one number and 8 character minimum. These guidelines are presented to the user to help prevent obvious validation errors during the account creation process.
 
-* lists
-* of
-* items,
+## Usability
 
-```
-* lists
-* of
-* items,
-```
+#### *Does the system prioritize recognition or recall?*
+Our redesign emphasizes recognition over recall, having the same menu in the header on all pages. Users are not required to remember a bunch of different potential actions they can take. Users would also benefit from a drop down menu for each clickable link that appears when they hover the cursor over top.
 
-1. and numbered
-2. lists
-3. of items,
+#### *How does the redesign incorporate flexibility and efficiency of use for the user?*
+Through the implementation of a login system and favourites page, we have facilitated a level of flexibility previously missing from the ClassFind website. As well, the website is much easier to navigate on first inspection, unlike the text heavy front page of the previous iteration that would require more than a minute of studying to be able to describe the layout from memory.
 
+#### *How was the Aesthetic chosen and why such a minimalist design?*
+Inspired by our perceived failure of the maximalist design of the original website, we believed that a simple, easy to navigate site design would be the one design change that results in the biggest increase in user experience. We chose the colour purple so that users would immediately associate this site with Western. We made use of the whitespace present to ensure the website is easy on users eyes and compliment the purple highlights included.
 
-```
-1. and numbered
-2. lists
-3. of items,
-```
+#### *How does the system help users recognize, diagnose, and recover from errors?*
+When the user attempts a login, but the system can not find the information the user entered in the system, an error message will pop up and inform the user that it can not log in using the provided credentials.
 
-in addition to [hyperlinks](https://idyll-lang.org) and images:
-
-![quill](static/images/quill.svg)
-
-```
-![quill](static/images/quill.svg)
-```
-
-## Components
-
-Components can be embedded using a bracket syntax:
-
-```
-[Range /]
-```
-
-and can contain nested content:
-
-```
-[Equation]e = mc^{2}[/Equation]
-```
-
-Components accept properties:
-
-```
-[Range value:x min:0 max:1 /]
-```
-
-that can be bound to variables to achieve interactivity (more in next section).
-
-
-A variety of components are included by default. See [all the available components](https://idyll-lang.org/docs/components/). You can also use any html tag, for example: `[div] A div! [/div]`.
-
-To create your own, add it to the `components/` folder. There are examples of how to use Idyll with React and D3 based components already included.
-
-
-
-## Interactivity
-
-Here is how you can instantiate a variable and bind it to a component:
-
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-
-```
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-```
-
-## Learn More
-
-To learn more see the documentation at https://idyll-lang.org/docs/,
-join our [chatroom](https://gitter.im/idyll-lang/Lobby), or see the project on [GitHub](https://github.com/idyll-lang/idyll).
