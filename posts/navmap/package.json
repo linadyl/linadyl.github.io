@@ -1,5 +1,5 @@
 {
-  "name": "post-2",
+  "name": "navigational-map",
   "version": "1.0.0",
   "license": "MIT",
   "idyll": {
@@ -7,7 +7,7 @@
     "layout": "centered",
     "css": "styles.css",
     "authorView": false,
-    "output": "../../docs/post-2/",
+    "output": "../../docs/navigational-map/",
     "components": [
       "../../components/",
       "components"

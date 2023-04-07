@@ -1,9 +1,9 @@
-[meta title:"Post 2" description:"Short description of your project" /]
+[meta title:"Heuristic Evaluation" description:"Short description of your project" /]
 
 [Header
   fullWidth:true
-  title:"Post 2"
-  subtitle:". Open index.idyll to start writing"
+  title:"HCI Group 25"
+  subtitle:"Classfind Redesign"
   author:"Arnav Mehrotra, Dylan Christian, Xiaoyuan Sang, Lina Lee"
   authorLink:"https://github.com/uwohci23/Group25"
   date:`(new Date()).toDateString()`

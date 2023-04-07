@@ -5,7 +5,6 @@ class CustomComponent extends React.Component {
     const { hasError, idyll, updateProps, ...props } = this.props;
     return (
       <div {...props}>
-        Inner custom
         <svg width={300} height={50} style={{ display: 'block', margin: '20px auto', background: 'white'}}>
           <rect width={50} height={50} y={0} x={25} fill={'#ddd'} />
           <circle cx={50} cy={25} r={15} x={25} fill={'#000'} />
